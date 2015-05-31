@@ -15,6 +15,14 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
+gem 'protected_attributes'
+
+gem 'bcrypt-ruby', '3.1.2'
+
 group :test do
   gem 'capybara'
 	gem 'factory_girl_rails', '4.1.0'
